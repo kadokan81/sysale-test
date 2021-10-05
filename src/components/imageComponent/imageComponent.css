@@ -1,0 +1,8 @@
+.mainImage {
+	margin: 0 auto;
+	width: 265px;
+	height: 265px;
+	border-radius: 25px;
+	overflow: hidden;
+	margin-left: 80px;
+}

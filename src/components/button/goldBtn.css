@@ -1,0 +1,38 @@
+.btn-gold-medium {
+	background: linear-gradient(261.65deg, #eabd4b -3.95%, #e5aa15 109.44%);
+	border-radius: 30px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 21px;
+	padding: 5px 110px;
+	color: white;
+	border: none;
+	text-decoration: none;
+	transition: 0.3s all ease-in-out;
+}
+
+.btn-gold-medium:hover,
+.btn-gold-small:hover {
+	/* transform: translateY(-3px); */
+	background: linear-gradient(261.65deg, #c8a959 -3.95%, #b08924 109.44%);
+	box-shadow: 3px 3px 5px#eecc7789;
+}
+.btn-gold-medium:active,
+.btn-gold-small:active {
+	background: linear-gradient(261.65deg, #f5d482 -3.95%, #f3c03e 109.44%);
+}
+
+.btn-gold-small {
+	background: linear-gradient(261.65deg, #eabd4b -3.95%, #e5aa15 109.44%);
+	border-radius: 30px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 21px;
+	padding: 3px 20px;
+	color: white;
+	border: none;
+	text-decoration: none;
+	transition: 0.3s ease-in-out all;
+}
