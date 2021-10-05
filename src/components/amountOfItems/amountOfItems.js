@@ -14,14 +14,19 @@ const AmountOfItems = () => {
 	};
 
 	return (
-		<div className='counter'>
+		<div className='counter' data-testid='counter'>
 			<span
+				data-testid='decrementButton'
 				className={`btn btn-big ${amount === 1 ? 'disable' : ''}`}
 				onClick={decrementAmount}>
 				-
 			</span>
-			{amount}
-			<span className='btn' onClick={incrementAmount}>
+			<span data-testid='result'>{amount}</span>
+
+			<span
+				className='btn'
+				onClick={incrementAmount}
+				data-testid='encrementButton'>
 				+
 			</span>
 		</div>
